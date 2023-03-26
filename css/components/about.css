@@ -1,0 +1,24 @@
+.about{
+	padding: 50px;
+	background-color: #151515;
+}
+.about__block{
+	padding: 50px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 44px 3px rgba(255, 255, 255, 0.85);
+	background-color: #000;
+	border: 3px solid #fff;
+	width: 100%;
+}
+.about__who{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+.about__descr{
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	color: #fff;
+}

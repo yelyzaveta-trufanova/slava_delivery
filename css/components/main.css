@@ -1,0 +1,37 @@
+.main{
+	min-height: 100vh;
+	padding: 150px 0px;
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), 	url('../../images/ukr.jpg') no-repeat center/cover fixed;
+}
+.main__smooth{
+	padding: 50px 75px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 90%;
+    height: auto;
+    backdrop-filter: blur(12px);
+    border-radius: 40px;                
+    box-shadow: 0 0.3px 0.7px rgb(0 0 0 / 13%), 0 0.9px 1.7px rgb(0 0 0 / 18%), 0 1.8px 3.5px rgb(0 0 0 / 22%), 0 3.7px 7.3px rgb(0 0 0 / 28%), 0 10px 20px rgb(0 0 0 / 40%);
+    border: 1px solid rgba(240,240,240,0.2);
+    margin: 0 auto;
+    z-index: 1;
+}
+.main__title{
+	margin: 0;
+	color: #fff;
+	font-weight: 300;
+	text-shadow: 0px 0px 24px rgba(0, 0, 0, 0.65);
+	text-align: center;
+	font-size: 48px;
+}
+.main__subtitle{
+	color: #fff;
+	font-weight: 100;
+	text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
+	text-align: center;
+	margin: 0;
+	margin-top: 20px;
+	font-size: 36px;
+}
